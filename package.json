@@ -1,0 +1,42 @@
+{
+  "name": "vue_learn",
+  "version": "0.1.0",
+  "description": "vue learn and demos test",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/countBunny/vue_learn.git"
+  },
+  "keywords": [
+    "vue",
+    "learn"
+  ],
+  "author": "countBunny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/countBunny/vue_learn/issues"
+  },
+  "homepage": "https://github.com/countBunny/vue_learn#readme",
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-typescript": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "typescript": "^3.4.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
